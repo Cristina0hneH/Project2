@@ -177,3 +177,65 @@ color: aliceblue;
     padding-left: calc(var(--nav-width) + 188px);
   }
 }
+/* shareBtn*/
+#shareBtn {
+    background-color: blue;
+    color: whitesmoke;
+    border:1px solid blue;
+    border-radius: 20px;
+    
+}
+/* Read More */
+.readBtn {
+      transition-duration: 0.4s;
+}
+.readBtn:hover {
+    background-color: white;
+    color: blue;
+}
+#more {
+    display: none;
+}
+#myBtn {
+    background-color: blue;
+    color: whitesmoke;
+    border:1px solid blue;
+    border-radius: 20px;
+    
+}
+
+/*  display on hover*/
+/* Parent Container */
+.content_img{
+    position: relative;
+    width: 600px;
+    float: center;
+   }
+   
+   /* Child Text Container */
+   .content_img div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */
+   .content_img:hover{
+    cursor: pointer;
+   }
+   
+   .content_img:hover div{
+    width: auto;
+    margin: 3px;
+    padding: 5px;
+    visibility: visible;
+    opacity: 0.7; 
+   }
