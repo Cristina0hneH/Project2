@@ -13,7 +13,7 @@
 .hero-img{
     background-image: url("https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
     height: 50vh; 
-    padding-right: ;
+    padding-right: 0;
 }
 
 *,
@@ -177,38 +177,70 @@ color: aliceblue;
     padding-left: calc(var(--nav-width) + 188px);
   }
 }
+
+
+
+
+
 /* shareBtn*/
 #shareBtn {
-    background-color: blue;
-    color: whitesmoke;
-    border:1px solid blue;
-    border-radius: 20px;
+  padding: 5px 10px;
+  margin: 15px 0;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: whitesmoke;
+  background-color:blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
     
+}
+#shareBtn:hover {background-color: whitesmoke;
+  color: blue;
+}
+#shareBtn:active {
+  background-color: whitesmoke;
+  color: blue;
+  box-shadow: 0 5px rgb(82, 1, 1);
+  transform: translateY(4px);
 }
 /* Read More */
 .readBtn {
-      transition-duration: 0.4s;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: whitesmoke;
+  background-color:blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
-.readBtn:hover {
-    background-color: white;
-    color: blue;
+.readBtn:hover {background-color: whitesmoke;
+  color: blue;
+}
+.readBtn:active {
+  background-color: whitesmoke;
+  color: blue;
+  box-shadow: 0 5px rgb(82, 1, 1);
+  transform: translateY(4px);
 }
 #more {
     display: none;
 }
-#myBtn {
-    background-color: blue;
-    color: whitesmoke;
-    border:1px solid blue;
-    border-radius: 20px;
-    
+.h1 {
+  font-weight: bolder;
 }
 
 /*  display on hover*/
 /* Parent Container */
 .content_img{
     position: relative;
-    width: 600px;
+    max-width: max-content;
     float: center;
    }
    
