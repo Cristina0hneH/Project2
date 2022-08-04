@@ -1,125 +1,110 @@
 const normalRecipe = `
 <tr>
     <th scope="row">1</th>
-    <td>2 medium</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
+    <td>½ cup water (warm)</td>
+    <td>½ cup curd / yogurt (thick)</td>
+    <td>3 tbsp pizza sauce</td>
 </tr>
 
 <tr>
     <th scope="row">2</th>
-    <td>200 gm</td>
-    <td>Cubed Paneer</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
+    <td>1 tsp sugar</td>
+    <td>½ capsicum (red & green, sliced)</td>
+    <td>¼ tsp chilli flakes</td>
 </tr>
 
 <tr>
     <th scope="row">3</th>
-    <td>1 cup</td>
-    <td>Mozzarella</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
+    <td>1 tsp dry yeast</td>
+    <td>½ onion </td>
+    <td>¼ tsp mixed herbs</td>
 </tr>
 
 <tr>
     <th scope="row">4</th>
-    <td>2 tablespoon</td>
-    <td>pizza sauce</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
+    <td>plain flour</td>
+    <td>¼ tsp salte</td>
+    <td>few olives</td>
 </tr>
 
 <tr>
     <th scope="row">5</th>
-    <td>2 cubed</td>
-    <td>Capsicum</td>
-    <td>Medium Pizza Base</td>
-    <td>Medium Pizza Base</td>
+    <td>2 tbsp + 1 tsp olive oil</td>
+    <td>1 tsp lemon juice</td>
+    <td>½ cup mozzarella cheese (grated)</td>
 </tr>
 `;
 
 const smallRecipe = `
 <tr>
     <th scope="row">1</th>
-    <td>1 small</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
+    <td>½ cup water (warm)</td>
+    <td>½ cup curd / yogurt (thick)</td>
+    <td>1 tbsp pizza sauce</td>
 </tr>
 
 <tr>
     <th scope="row">2</th>
-    <td>100 gm</td>
-    <td>Cubed Paneer</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
+    <td>½ tsp sugar</td>
+    <td>½ capsicum (red & green, sliced)</td>
+    <td>¼ tsp chilli flakes</td>
 </tr>
 
 <tr>
     <th scope="row">3</th>
-    <td>1/2 cup</td>
-    <td>Mozzarella</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
+    <td>½ tsp dry yeast</td>
+    <td>½ onion </td>
+    <td>tsp mixed herbs</td>
 </tr>
 
 <tr>
     <th scope="row">4</th>
-    <td>1/4 tablespoon</td>
-    <td>pizza sauce</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
+    <td>plain flour</td>
+    <td>¼ tsp salte</td>
+    <td>few olives</td>
 </tr>
 
 <tr>
     <th scope="row">5</th>
-    <td>0.5 cubed</td>
-    <td>Capsicum</td>
-    <td>small Pizza Base</td>
-    <td>small Pizza Base</td>
+    <td>2 tbsp + 1 tsp olive oil</td>
+    <td>1 tsp lemon juice</td>
+    <td>½ cup mozzarella cheese (grated)</td>
 </tr>`;
 
 const largeRecipe = `
 <tr>
     <th scope="row">1</th>
-    <td>3 large</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
+    <td>1.5 cup water (warm)</td>
+    <td>1 cup curd / yogurt (thick)</td>
+    <td>4 tbsp pizza sauce</td>
 </tr>
 
 <tr>
     <th scope="row">2</th>
-    <td>300 gm</td>
-    <td>Cubed Paneer</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
+    <td>3 tsp sugar</td>
+    <td>1 capsicum (red & green, sliced)</td>
+    <td>1 tsp chilli flakes</td>
 </tr>
 
 <tr>
     <th scope="row">3</th>
-    <td>2 cup</td>
-    <td>Mozzarella</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
+    <td>1 tsp dry yeast</td>
+    <td>1 onion </td>
+    <td>1 tsp mixed herbs</td>
 </tr>
 
 <tr>
     <th scope="row">4</th>
-    <td>3 tablespoon</td>
-    <td>pizza sauce</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
+    <td>plain flour</td>
+    <td>1 tsp salte</td>
+    <td>few olives</td>
 </tr>
 
 <tr>
     <th scope="row">5</th>
-    <td>3 cubed</td>
-    <td>Capsicum</td>
-    <td>large Pizza Base</td>
-    <td>large Pizza Base</td>
+    <td>3 tbsp + 1 tsp olive oil</td>
+    <td>2 tsp lemon juice</td>
+    <td>1 cup mozzarella cheese (grated)</td>
 </tr>`;
 
 $(document).ready(() => {
@@ -152,6 +137,3 @@ $(document).ready(() => {
         alert("Paneer pizza share button pressed!");
     });
 });
-
-
-
