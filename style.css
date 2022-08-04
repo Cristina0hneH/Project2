@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
-
+html {
+scroll-behavior: smooth;
+}
 :root {
   --header-height: 3rem;
   --nav-width: 68px;
@@ -11,9 +13,10 @@
   --z-fixed: 100
 }
 .hero-img{
-    background-image: url("https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-    height: 50vh; 
-    padding-right: ;
+  background-image: url("https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 50vh; 
 }
 
 *,
