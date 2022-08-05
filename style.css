@@ -13,12 +13,24 @@ html {
     --z-fixed: 100;
 }
 .hero-img {
-    background-image: url("https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-
+    background-image: url("https://images.unsplash.com/photo-1535041422672-8c3254ab3abe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 50vh;
 }
+.hero-text{
+    min-height: 50vh;
+    opacity: 0;
+    color:antiquewhite;
+    position: relative;
+    max-width: max-content;
+    float: center;
+}
+
+.hero-text:hover{       /*  unlike the other imgs, hero is in the background.*/
+    opacity: 1;         /*  I was supposed to just copy the class Ibraheem made and paste it in the parent div of the img*/
+}                       /* but it didn't work. display none and block also didn't work when I made my own classes*/
+
 
 *,
 ::before,
