@@ -181,64 +181,63 @@ a .nav_icon {
     }
 }
 
-
-
-
-
 /* shareBtn*/
 #shareBtn {
-  padding: 5px 10px;
-  margin: 15px 0;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: whitesmoke;
-  background-color:blue;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-    
+    padding: 5px 10px;
+    margin: 15px 0;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: whitesmoke;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
     border: 1px solid blue;
 }
-#shareBtn:hover {background-color: whitesmoke;
-  color: blue;
+#shareBtn:hover {
+    background-color: whitesmoke;
+    color: blue;
 }
 #shareBtn:active {
-  background-color: whitesmoke;
-  color: blue;
-  box-shadow: 0 5px rgb(82, 1, 1);
-  transform: translateY(4px);
+    background-color: whitesmoke;
+    color: blue;
+    box-shadow: 0 5px rgb(82, 1, 1);
+    transform: translateY(4px);
 }
 /* Read More */
 .readBtn {
-  padding: 5px 10px;
-  margin-bottom: 20px;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: whitesmoke;
-  background-color:blue;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: whitesmoke;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
     transition-duration: 0.4s;
 }
-.readBtn:hover {background-color: whitesmoke;
-  color: blue;
+.readBtn:hover {
+    background-color: whitesmoke;
+    color: blue;
 }
 .readBtn:active {
-  background-color: whitesmoke;
-  color: blue;
-  box-shadow: 0 5px rgb(82, 1, 1);
-  transform: translateY(4px);
+    background-color: whitesmoke;
+    color: blue;
+    box-shadow: 0 5px rgb(82, 1, 1);
+    transform: translateY(4px);
 }
 #more {
     display: none;
 }
 .h1 {
-  font-weight: bolder;}
+    font-weight: bolder;
+}
 #myBtn {
     background-color: blue;
     color: whitesmoke;
@@ -282,7 +281,7 @@ a .nav_icon {
     opacity: 0.7;
 }
 
-/*--------------------------------------------- priyanka  Hover on image------------------------------------------------------ */
+/*------------- Hover on image for Pizza---------- */
 /* effect-img hover*/
 .img-overlay {
     position: relative;

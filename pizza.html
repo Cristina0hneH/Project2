@@ -75,9 +75,8 @@
 
                     <h6>03 August 2022</h6>
                     <h6>Total Making Time: 20 mins</h6>
-                    <button type="button" class="btn btn-dark" id="shareButtonPriyanka">Share</button><br /><br />
+                    <button type="button" class="btn btn-dark" id="shareButton">Share</button><br /><br />
                 </div>
-
                 <div class="col-12 col-sm-5">
                     <div class="row mt-4 font-weight-normal">
                         <div class="text-decoration-underline mb-3">
@@ -94,10 +93,14 @@
                                 <b>Step 3:</b> Bake the pizza Now, spread the remaining cheese on top of the veggies. Ensure that it spreads evenly all over the pizza. Ideally, you must use mozzarella cheese, but if you do not have it, you can use cheese cubes as well. Bake the pizza at 180 degrees
                                 C for 10-15 minutes, depending on your oven.
                             </p>
-                            <p>
-                                <b>Step 4:</b> Cool and cut the pizza into slices, serve hot Once done, remove the pizza and allow it to cool slightly. Cut the paneer pizza into slices. Garnish the pizza by sprinkling oregano seasoning or chilli flakes on top and Serve hot. Do try this delicious
-                                recipe, rate it and leave your comments in the section below.
-                            </p>
+                            <span id="dots">...</span
+                            ><span id="more">
+                                <p>
+                                    <b>Step 4:</b> Cool and cut the pizza into slices, serve hot Once done, remove the pizza and allow it to cool slightly. Cut the paneer pizza into slices. Garnish the pizza by sprinkling oregano seasoning or chilli flakes on top and Serve hot. Do try this delicious
+                                    recipe, rate it and leave your comments in the section below.
+                                </p>
+                            </span>
+                            <button class="readBtn" onclick="collaps()" id="myBtn">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -117,7 +120,7 @@
                             </tr>
                         </thead>
 
-                        <tbody id="ingrediantPriyanka"></tbody>
+                        <tbody id="ingrediant"></tbody>
                     </table>
                 </div>
             </div>
@@ -126,7 +129,7 @@
         <br />
 
         <div class="col-lg-3">
-            <h4 class="text-decoration-underline">Pizza Size:</h4>
+            <h4 class="text-decoration-underline">Pizza Size Select:</h4>
 
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultLarge" />
@@ -146,7 +149,7 @@
             </div>
         </div>
 
-        <div class="col-12"><button type="button" class="btn btn-dark" id="applyButtonPriyanka">Apply</button><br /><br /></div>
+        <div class="col-12"><button type="button" class="btn btn-dark" id="applyButton">Apply</button><br /><br /></div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

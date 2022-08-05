@@ -107,33 +107,25 @@ const largeRecipe = `
     <td>1 cup mozzarella cheese (grated)</td>
 </tr>`;
 
+/*------------- for button ---------- */
 $(document).ready(() => {
-    $("#ingrediantPriyanka").append(normalRecipe);
+    $("#ingrediant").append(normalRecipe);
 
     $('[type="checkbox"]').change(function () {
         if (this.checked) {
             $('[type="checkbox"]').not(this).prop("checked", false);
         }
     });
-
-    $("#imagePriyanka").on("mouseenter", () => {
-        $("#imageTitlePriyanka").fadeIn(250);
-    });
-
-    $("#imagePriyanka").on("mouseleave", () => {
-        $("#imageTitlePriyanka").fadeOut(250);
-    });
-
-    $("#applyButtonPriyanka").on("click", () => {
+    $("#applyButton").on("click", () => {
         var data = ``;
-        $("#ingrediantPriyanka").empty();
+        $("#ingrediant").empty();
 
-        if ($("#flexCheckDefaultLarge").prop("checked")) $("#ingrediantPriyanka").append(largeRecipe);
-        if ($("#flexCheckChecked").prop("checked")) $("#ingrediantPriyanka").append(normalRecipe);
-        if ($("#flexCheckDefaultSmall").prop("checked")) $("#ingrediantPriyanka").append(smallRecipe);
+        if ($("#flexCheckDefaultLarge").prop("checked")) $("#ingrediant").append(largeRecipe);
+        if ($("#flexCheckChecked").prop("checked")) $("#ingrediant").append(normalRecipe);
+        if ($("#flexCheckDefaultSmall").prop("checked")) $("#ingrediant").append(smallRecipe);
     });
 
-    $("#shareButtonPriyanka").on("click", () => {
+    $("#shareButton").on("click", () => {
         alert("Paneer pizza share button pressed!");
     });
 });
